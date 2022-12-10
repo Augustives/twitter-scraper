@@ -33,7 +33,7 @@ def remove_stop_words(text):
 
     tokens_without_sw = [
         word for word in text_tokens
-        if not word in nltk.corpus.stopwords.words()
+        if word not in nltk.corpus.stopwords.words()
     ]
 
     return ' '.join(tokens_without_sw)

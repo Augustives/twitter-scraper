@@ -46,10 +46,9 @@ async def follow_user_tweets(session, user_id):
     response_data = await response.json()
     next_token = response_data.get('meta').get('next_token')
 
-    # paginated_tweets = await follow_user_tweets_pagination(
-    #     session, user_id, next_token
-    # )
-    paginated_tweets = []
+    paginated_tweets = await follow_user_tweets_pagination(
+        session, user_id, next_token
+    )
 
     return [
         tweet.get('text')

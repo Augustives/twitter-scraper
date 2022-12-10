@@ -5,17 +5,15 @@ USER_TWEETS_URL_PAGINATED = 'https://api.twitter.com/2/users/{}/tweets?max_resul
 
 USERNAMES = [
     'TheQuartering',
-    # 'RealCandaceO',
-    # 'benshapiro',
-    # 'scrowder',
-    # 'RepMTG',
-    # 'MattWalshBlog',
-    # 'prageru',
-
-    # 'VaushV',
-    # 'TuckerCarlson',
-
-    # 'AOC',
-    # 'hasanthehun',
-    # 'IlhanMN'
+    'RealCandaceO',
+    'benshapiro',
+    'scrowder',
+    'RepMTG',
+    'MattWalshBlog',
+    'prageru',
+    'VaushV',
+    'TuckerCarlson',
+    'AOC',
+    'hasanthehun',
+    'IlhanMN'
 ]
